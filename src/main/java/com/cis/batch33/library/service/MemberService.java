@@ -26,7 +26,7 @@ public class MemberService {
         Integer memberId = new Random().nextInt();
         member.setMemberId(memberId);
 
-        return memberRepository.save(member);
+        return memberRepository.save(new LibraryMember());
     }
 
     public Member getMember(Integer memberId) {
