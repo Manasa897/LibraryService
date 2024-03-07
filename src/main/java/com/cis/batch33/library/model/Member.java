@@ -7,7 +7,7 @@ import java.util.List;
 @Data
 public class Member {
 
-    private long memberId;
+    private Integer memberId;
     private String firstName;
     private String lastName;
     private String emailAddress;

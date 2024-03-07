@@ -27,7 +27,7 @@ public class LibraryMember {
     @Column(name="phone_number")
     private Long phoneNumber;
 
-    @Column(name="memebership_level")
+    @Column(name="membership_level")
     private String memberShipLevel;
 
     @ManyToOne
